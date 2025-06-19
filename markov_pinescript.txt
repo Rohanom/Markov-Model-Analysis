@@ -1,0 +1,13 @@
+//@version=5
+
+strategy("markov", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100)
+
+//Defining the inside day
+condition = close<close[1] and close[1]<close[2] and close[2]<close[3] and close[3]<close[4] and close[4]<close[5] and close[5]<close[6] 
+//Preparing exit condition
+
+if condition 
+    strategy.entry("long",strategy.long)
+    
+if close>close[1]
+    strategy.close("long")
