@@ -103,6 +103,6 @@ Backtests were run on all 20 tickers.
 **Om Aditya**  
 _B.Tech @ IIT Jodhpur | Markets, Quant, and ML Enthusiast_  
 📘 Passionate about decoding financial anomalies  
-🧪 Inspired by Renaissance Tech’s edge  
 🔗 [LinkedIn](https://www.linkedin.com/in/omaditya8)  
-💻 GitHub – `Rohanom`
+💻 [Github](https://github.com/Rohanom)  
+
