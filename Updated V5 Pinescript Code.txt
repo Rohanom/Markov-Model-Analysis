@@ -1,0 +1,13 @@
+//@version=5
+strategy("Markov Strategy", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=100)
+
+// Define a 6-day consecutive downtrend condition
+condition = close < close[1] and close[1] < close[2] and close[2] < close[3] and close[3] < close[4] and close[4] < close[5] and close[5] < close[6]
+
+// Entry: Go long if 6 red candles in a row
+if condition
+    strategy.entry("Long", strategy.long)
+
+// Exit: Close long if today's close is higher than yesterday's close
+if strategy.position_size > 0 and close > close[1]
+    strategy.close("Long")
