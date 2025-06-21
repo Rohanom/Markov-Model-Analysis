@@ -1,5 +1,4 @@
-# Markov-Model-Analysis
-# 🔍 Medallion-Inspired Quantitative Strategy: Markov Chains & Candle Streaks
+# 🔍 Medallion inspired Quantitative Strategy: Markov Chains & Candle Streaks
 
 ## 🧠 Backstory & Motivation
 
@@ -16,7 +15,7 @@ Inspired by this, I attempted to **reverse-engineer** a simplified, interpretabl
 
 ## 🧩 Project Structure
 
-### 📁 `file1_markov_chain.py`
+### 📁 `SP500_index_Test.py`
 
 > **Objective:** Use historical stock data to construct a **Markov chain-based model** of market states.
 
@@ -33,7 +32,7 @@ Probability of 📈 after 📉📉📉📉📉 = 67.3%
 
 ---
 
-### 📁 `file2_backtesting_streaks.py`
+### 📁 `Markov_Stratergy_Test_on_20_stocks.py`
 
 > **Objective:** Implement and **backtest streak-based trading strategies** using candle color logic.
 
