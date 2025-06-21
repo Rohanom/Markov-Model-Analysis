@@ -78,6 +78,32 @@ Backtests were run on all 20 tickers.
 
 ---
 
+### 📁 `Updated_v5_Pinescript_code.txt` (Pine Script v5 – SPY Strategy Indicator)
+
+> **Objective:** Replicate and visualize the Markov-based streak strategy from `SP500_index_Test.py` directly on TradingView.
+
+#### 🔧 Features:
+- Detects streaks of consecutive red (📉) or green (📈) candles.
+- Generates **buy signals** after a configurable number of red candles.
+- Optionally, generates **sell signals** after green streaks (mirroring short entry logic).
+- Clean visual overlay for easy chart-based backtesting.
+- Supports real-time alerts and can be adapted for auto-trading systems.
+
+#### 📈 Use Case:
+This indicator helps traders:
+- Validate the model visually on SPY.
+- Track streak-based edge in live markets.
+- Integrate with TradingView’s backtest engine and alert system.
+
+#### 🛠 How to Use:
+1. Open TradingView > Pine Editor.
+2. Paste the contents of `updated_v5_pinescript_code.txt`.
+3. Add to any SPY chart (or adapt to other tickers).
+4. Customize streak length, marker visibility, or alert conditions as needed.
+
+📌 **Note:** This TradingView script completes the project pipeline — from data analysis and modeling in Python to live market observation via charting tools.
+
+
 ## 🧠 Key Insights
 
 - **Markov Chain models** can capture short-term momentum and reversal regimes.
